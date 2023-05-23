@@ -132,7 +132,7 @@ body{
     .header{width: 90%;}
 }
 @media (max-width: 425px) {
-    .header{width: 100%; padding: 5px;padding-bottom: 10px; flex-direction: column;}
+    .header{width: 100%; padding: 5px;padding-bottom: 10px; flex-direction: column;margin-top: 10px;}
     .logo{flex: 1; margin-bottom: 10px; }
     .header .adding-section{width: 100%;}
     .notes .note{width: 135px; height: 200px;}
