@@ -20,24 +20,31 @@ body{
 }
 .header{
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     box-shadow: 0px 5px 10px #333;
     width: 60%;
-    padding: 10px 0;
-    position: relative;
+    padding: 20px 0;
     margin-top: 30px;
     background-color: var(--main-color);
     border-radius: var(--border-radius);
 }
-h1.logo{
+.logo{
     font-family: 'Aref Ruqaa', serif;
     color: #fff;
     letter-spacing:-3px;
     font-size: 35px;
     font-style: italic;
+    margin: 0;
 }
 .header .adding-section{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header .adding-section .inputs-section{
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -125,5 +132,7 @@ h1.logo{
     .header{width: 90%;}
 }
 @media (max-width: 425px) {
-    .header{width: 100%; padding: 5px;}
+    .header{width: 100%; padding: 5px;padding-bottom: 10px; flex-direction: column;}
+    .logo{flex: 1; margin-bottom: 10px; }
+    .header .adding-section{width: 100%;}
 }
