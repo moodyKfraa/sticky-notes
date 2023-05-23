@@ -125,3 +125,6 @@ h1.logo{
 @media (max-width: 768px) {
     .header{width: 90%;}
 }
+@media (max-width: 425px) {
+    .header{width: 100%; padding: 5px;}
+}
