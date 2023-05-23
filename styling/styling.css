@@ -136,4 +136,6 @@ body{
     .logo{flex: 1; margin-bottom: 10px; }
     .header .adding-section{width: 100%;}
     .notes .note{width: 135px; height: 200px;}
+    .note .text h1{font-size: 20px;}
+    .note .text p{font-size: 12px;}
 }
